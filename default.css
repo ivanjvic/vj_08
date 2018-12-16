@@ -1,0 +1,463 @@
+	html, body
+	{
+		height: 100%;
+	}
+	
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: #fff;
+	}
+
+
+/* Contenido */
+	
+#contenido 
+{
+	width: 960px;
+	margin: 0 auto;
+}
+
+/* Encabezamiento */
+
+#encabezamiento_01 
+{
+	width: 100%;
+}
+
+/* Logo */
+
+
+#logo {
+	width: 40%;
+	float: left;
+}
+
+#logo a 
+{
+	color: #2A70E8;
+}
+
+#logo img 
+{
+	max-width: 50%;
+	display: block;
+	float: left;
+	margin: 0 auto;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	margin-left: 2em;
+}
+
+#derecho 
+{
+	width: 60%;
+	float: right;
+	overflow: auto;
+}
+
+#derecho h1 
+{
+	font-size: 1.0em;
+	color: #eb4026;
+	text-align: right;
+	font-family: 'Dosis', sans-serif;
+	font-weight: lighter;
+	padding-right: 20px;
+}
+
+/* Botonera  */
+
+#botonera {
+	background: #003366;
+	overflow: auto;
+	width: 100%;
+}
+
+#botonera ul 
+{
+	margin: 0;
+	padding: 4px 0px 4px 0px;
+	list-style: none;
+	line-height: normal;
+	text-align: center;
+}
+
+#botonera li 
+{
+	display: inline-block;
+	width: 16%;
+}
+
+#botonera a
+{
+	color: #FFF;
+	display: block;
+	font-family: 'Dosis', sans-serif;
+	font-size: .9em;
+	font-weight: 300;
+	letter-spacing: 1px;
+	padding: 1em 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#botonera .seleccionado_01 
+{
+	border-radius: 30px;
+	border: 1px solid;
+	border-color: rgba(255,255,255,.2);
+}
+	
+
+
+/*********************************************************************************/
+/* Major Styles                                                                  */
+/*********************************************************************************/
+
+	.major
+	{
+		overflow: hidden;
+		margin-top: 1em;
+		text-align: center;
+	}
+	
+	.major h2
+	{
+		letter-spacing: 0.10em;
+		text-transform: uppercase;
+		font-size: 3em;
+		font-weight: 700;
+		color: #333;
+	}
+
+	.major .byline
+	{
+		display: block;
+		padding-top: 0.2em;
+		font-weight: 300;
+		font-size: 2em;
+	}
+
+/*********************************************************************************/
+/* Title Styles                                                                  */
+/*********************************************************************************/
+
+	.title
+	{
+		text-align: center;
+	}
+	
+	.title h2
+	{
+		letter-spacing: 0.10em;
+		text-transform: uppercase;
+		font-weight: 700;
+		color: #3f3f3f;
+	}
+
+	.title .byline
+	{
+		display: block;
+		padding-top: 1em;
+		font-weight: 300;
+		font-size: 1.1em;
+	}
+
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+	.button
+	{
+		display: inline-block;
+		margin: 1em 0em;
+		padding: 1em 3em 1em 3em;
+		background: #2A70E8;
+		border-radius: 8px;
+		letter-spacing: 0.20em;
+		text-decoration: none;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 0.90em;
+		color: #FFF;
+	}
+	
+
+
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	.encabezado_01 {
+	color:#333;
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 2em;
+	font-weight: 700;
+	margin-left: 10px;
+	margin-top: 35px;
+	color: #003366;
+	text-align: center;
+}
+
+	.encabezado_02 {
+	color:#333;
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 1.7em;
+	font-weight: 700;
+	margin-left: 10px;
+	margin-top: 5px;
+	color: #003366;
+}
+
+.parrafo_01 {
+	font-family: 'Open Sans', sans-serif; 
+	margin-left: 40px;
+	margin-right: 40px;
+	text-align: center;
+	line-height: 1.4em;
+	font-size: 0.9em;
+	color: #003366;
+}
+
+.parrafo_02 {
+	font-family: 'Open Sans', sans-serif; 
+	margin-left: 40px;
+	margin-right: 40px;
+	line-height: 1.2em;
+	font-size: 0.9em;
+	color: #003366;
+	text-align: justify;
+}
+
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+
+
+/*********************************************************************************/
+/* Page                                                                          */
+/*********************************************************************************/
+
+	#page-wrapper
+	{
+		background: #EEEEEE;
+	}
+
+	#page
+	{
+		overflow: hidden;
+		padding: 6em 0em;
+	}
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+
+	#content
+	{
+		float: left;
+		width: 588px;
+		text-align: center;
+	}
+	
+	#content .title
+	{
+		padding: 1em 2em 2em 2em;
+		text-align: center;
+	}
+	
+	#content h2
+	{
+		font-size: 2em;
+	}
+	
+	#content .byline
+	{
+		padding-top: 0;
+		font-size: 1.5em;
+	}
+
+
+
+.copy {
+	color: #003366;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 50px;
+}
+
+#copy-02 {
+	color: #003366;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 25px;
+	background-image: url('fondo_categoria.jpg');
+}
+	.featured-wrapper
+	{
+		overflow: auto;
+		background: #fff;
+		margin-top: 40px;
+		margin-bottom: 50px;
+	}
+
+		#featured-wrapper-02
+	{
+		overflow: auto;
+		background: #fff;
+		margin-top: 40px;
+		margin-bottom: 50px;
+		
+	}
+
+	#featured {
+		overflow: auto;
+	}
+
+.bloques {
+	padding-top: 20px;
+	overflow: auto;
+}
+
+.sub_bloques {
+	width: 32.08333333333333%;
+	margin: 15px 0.625% 10px 0.625%;
+	float: left;
+	background-image: url('fondo_categoria.jpg');
+
+}
+
+.sub_bloques img {
+	display: block;
+	margin: 0 auto;
+	padding: 10px;
+	max-width: 40%;
+}
+
+.categorias_a {
+	font-family: 'Dosis', sans-serif;
+	color: #003366;
+	font-size: 1.1em;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+}
+
+.negocios {
+	width: 100%;
+	overflow:auto;
+
+}
+
+.negocios article {
+	width: 48%;
+	margin: 15px 1% 15px 1%;
+	float: left;
+	background-image: url('fondo_categoria.jpg');
+	border-bottom: 5px solid #ccc;
+}
+
+.negocios article img {
+margin: 0 auto;
+display: block;
+padding-top: 15px;
+}
+
+
+.negocios article a {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	display: block;
+	color: #003366;
+	padding: 20px 0 20px 0;
+	font-size: 1.5em;
+}
+
+hr {
+	margin-top: 100px;
+	margin-bottom: 30px;
+	width: 50%;
+  height: 1px;
+  background-color: #003366;
+}
+
+
+.pie_pagina {
+	width: 100%;
+	overflow: auto;
+
+}
+
+.pie_pagina article {
+	width: 100%
+	background-color: red;
+	display: block;
+	text-align: center; /* If you want the text to be centered */
+}
+
+.pie_pagina article a {
+	width: 33.33333333333333%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+	text-decoration: none;
+	font-family: 'Dosis', sans-serif;
+	color: #003366;
+	padding: 5px;
+	font-size: 1.3em;
+}
+
+.pie_pagina article img {
+	padding: 15px;
+}
+
+
+
+
+/*********************************************************************************/
+/* Portfolio                                                                     */
+/*********************************************************************************/
+
+	#portfolio-wrapper
+	{
+		padding: 8em 0em 6em 0em;
+	}
+	
+	#portfolio
+	{
+		overflow: hidden;
+		text-align: center;
+	}
+	
+	#portfolio .major h2,
+	#portfolio .major .byline
+	{
+		color: rgba(255,255,255,0.9);
+	}
+	
+	#portfolio img
+	{
+		margin: 0;
+		padding: 0;
+	}
+	
+	#portfolio .box
+	{
+		padding: 30px;
+		background: #FFF;
+		border-radius: 0px 0px 8px 8px;
+		border-right: 1px solid #DADADA;
+		border-left: 1px solid #DADADA;
+	}
+
+	#contact .major h2,
+	#contact .major .byline
+	{
+		color: rgba(255,255,255,0.9);
+	}
